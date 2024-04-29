@@ -121,3 +121,101 @@ body{
     margin-top: 0px;
     margin-bottom: 0px;
 }
+
+.heading{
+    width: 90%;
+    margin: auto;
+    /* border: 3px solid red; */
+    text-align: center;
+    padding-bottom: 60px;
+}
+.sub-heading{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 130px 130px 150px 130px 80px 130px;
+    align-items:center;
+    justify-content: center;
+    gap: 10px;
+}
+.sub-heading > span{
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.type{
+    border: 1px solid #E3E3E3;
+    padding-top: 10px;
+    position: relative;
+}
+.cate-type{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(8,130px);
+    /* border: 3px solid red; */
+    padding: 20px;
+    text-align: center;
+}
+.cate-type > span{
+    padding-bottom: 15px;
+}
+.sort{
+    display: flex;
+    gap:40px;
+    position: absolute;
+    top: 40px;
+    left: 1130px;
+    align-items: center;
+}
+.sort > p{
+    border-left: 1px solid gray;
+    padding-left: 20px;
+}
+.showing{
+    /* border: 3px solid black; */
+    position: relative;
+    top: 20px;
+    width: 90%;
+    margin: auto;
+}
+.sub-showing{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    position: relative;
+}
+.sub-showing > div >  img{
+    width: 100%;
+}
+.sub-showing > div > p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 3px 0px;
+}
+.sub-showing-div{
+    position: relative;
+}
+.adds{
+    position: absolute;
+    top:10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Card{
+    position: absolute;
+    right: 0px;
+    bottom:30px;
+}
+.sub-showing-div > p:nth-of-type(1){
+    font-size: 11px;
+}
+.sub-showing-div > p:nth-of-type(2){
+    font-size: 14px;
+}
+.sub-showing-div > p:nth-of-type(3){
+    font-size: 14px;
+}
